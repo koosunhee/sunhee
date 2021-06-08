@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'GmarketSansMedium';
+  }
+
+  .info {
+    width: 65%;
+    height: 95%;
+    background: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 1px 1px rgb(224, 223, 223);
+  }
+.info table{ border-spacing: 10px;}
+.info h2{ color: #f52334; font-size: 2em;}
+table input{ padding: 5px; margin: 0px;}
+#phone{height:  30.8px; width: 108px;}
+#email2{height:  30.8px; width: 225px;}
+.bir{height:  30.8px; width: 104px;}
+.text{font-size: 10px; color: rgb(163, 162, 162);}
+.che{color: rgb(163, 162, 162);}
+.btn_box{display: flex; margin-top: 15px;}
+.btn_box input{margin-left: 30px;}
+.btn{border-radius: 40px; width: 100px; height: 38px; background:  #f52334; color: white; border: 2px solid  #f52334;}
+.btn:hover{background: #fff; color:#f52334; border: 2px solid  #f52334;}
+#address{background: #fff; border: 2px solid  #f52334;}

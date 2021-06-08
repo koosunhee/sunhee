@@ -1,0 +1,185 @@
+.main_headline{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-image: url(../images/choco/choco3.png);
+    background-size: 500px 656px;
+    background-repeat: no-repeat;
+    background-position:center;
+    opacity: 1;
+}
+
+
+
+.main_headline > h1 {
+    position:absolute;
+    color: #2e0e0f;
+    margin-left: 10%;
+    text-align: left;
+    margin-top: 45vh;
+}
+
+.main_headline > h1 strong{
+    text-align: left;
+    color: #ffe001;
+    text-shadow: 1px 2px #2e0e0f;
+    font-size: 50px;
+}
+
+.main_headline > p{
+    position:relative;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 55vh;
+    color: #a2854c;
+}
+
+.main_headline > p img{
+    width: 20px; height: 20px;
+    position:relative;
+}
+.login_box{
+    position:relative; float: right; line-height: 50px;
+    right: 50px; top: 50px; border-radius: 40px; background: #f52334; color: #fff; border: 3px solid #fdf08a;
+   }
+
+.login_box li{list-style:none; display: inline;  margin: 10px 20px; font-size: 18px;}
+.login_box:hover{ background:  white; border: 3px solid #f52334; color: #f52334;}
+.login_box a{color: inherit; text-decoration: none;}
+header{
+    z-index: 9999;
+    position: sticky;
+    top: 0;
+  }
+   
+.nav_bar{
+    background-color: #fff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.nav_bar li{list-style:none;}
+
+.nav_item img{
+    width: 100px; height: 50px;
+    margin-left: 5%;
+    float: left;
+
+}
+
+.menu_box li{
+    
+    margin: 10px 20px;
+    font-size: 18px; color: #2e0e0f;
+    
+}
+.menu_box li{display:inline; float: left; line-height: 50px;}
+
+.nav_item a{
+    color: inherit;
+    text-decoration: none;
+}
+.nav_item a:hover{
+    color: #f52334;
+    border-bottom: 5px solid #f52334;
+  }
+  
+.cheese1{
+    position:absolute;
+    width: 125px; height: 125px;
+    top: auto;
+    right: auto;
+    bottom: 77%;
+    left: 64%;
+	transition:all 0.5s 0.1s;
+	animation:rot-img2 5s infinite;
+}
+.cheese2{
+   
+    position:absolute;
+    width: 125px; height: 125px;
+    bottom: auto;
+    right: auto;
+    top: 72%;
+    left: 58%;
+	transition:all 0.5s 0.1s;
+	animation:rot-img2 5s infinite;
+}
+.cheese3{
+    position:absolute;
+    width: 174px; height: 174px;
+    bottom: auto;
+    left: auto;
+    top: 83%;
+    right: 75%;
+	transition:all 0.5s 0.1s;
+	animation:rot-img1 5s infinite;
+}
+.popcorn4{
+    position:absolute;
+    width: 112px; height: 112px;
+    bottom: auto;
+    left: auto;
+    top: 83%;
+    right: 51%;
+	transition:all 0.5s 0.1s;
+	animation:rot-img2 5s infinite;
+}
+.popcorn5{
+    position:absolute;
+    width: 84px; height: 84px;
+    top: auto;
+    left: auto;
+    bottom: 64%;
+    right: 59%;
+	transition:all 0.5s 0.1s;
+	animation:rot-img1 5s infinite;
+
+
+}
+.popcorn6{
+    position:absolute;
+    width: 145px; height: 145px;
+    bottom: auto;
+    right: auto;
+    top: 63%;
+    left: 77%;;
+	transition:all 0.5s 0.1s;
+	animation:rot-img1 5s infinite;
+}
+
+@keyframes rot-img1 {
+	0%{
+		transform: rotate(0);
+	}50% {
+		transform: rotate(5deg);
+	}
+	100% {
+		transform: rotate(0);
+	}
+}
+
+@keyframes rot-img2 {
+	0%{
+		transform: rotate(0);
+	}50% {
+		transform: rotate(-10deg);
+	}
+	100% {
+		transform: rotate(0);
+	}
+}
+
+#Top{
+    position: fixed;
+    bottom: 64px;
+    right: 55px;
+    display: none;
+    z-index: 9999;
+}
+
+#Top img{
+    width: 43px; height: 43px;
+}

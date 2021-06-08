@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join</title>
+    <link href="CSS/choco_main.css" rel="stylesheet">
+
+</head>
+<body>
+   <body> 
+    <div class="wrap">
+    <form method="GET" class="info">
+        <h2>회원정보 입력</h2>
+        <table>
+            <tr>
+                <td>
+                    <label for="sname">이름
+                </td>
+                <td>
+                    <input type="text" name="sname" id="sname" size="38px"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="id">아이디
+                </td>
+                <td>
+                    <input type="text" name="id" id="id" size="38px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pwd">비밀번호
+                </td>
+                <td>
+                    <input type="text" name="pwd" id="pwd" size="38px"><br/>
+                   <p class="text">*영문 대소문자/숫자/특수문자를 혼용하여 2종류10~16자 또는 3종 8~16자</p> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pwdCheck">비밀번호 확인
+                </td>
+                <td>
+                    <input type="text" name="pwdCheck" id="pwdCheck" size="38px">
+                </td>
+            </tr>
+            <tr>
+                   <td>
+                         생일/성별
+                    </td>
+                    <td>
+                    <script type="text/javascript">
+                         var today = new Date();
+                         var toyear = parseInt(today.getFullYear ());
+                         var start = toyear;
+                         var end = toyear - 15;
+
+                         document.write("<select name=birth1 class=bir> ");
+                         document.write("<option value='2021' selected>");
+                         for (i=start;i>=end;i--) document.write("<option>"+i);
+                         document.write("</select>년  ");
+
+                         document.write("<select name=birth2 class=bir>");
+                         document.write("<option value='' selected>");
+                         for (i=1;i<=12;i++) document.write("<option>"+i);
+                         document.write("</select>월  ");
+
+                         document.write("<select name=birth3 class=bir>");
+                         document.write("<option value='' selected>");
+                         for (i=1;i<=31;i++) document.write("<option>"+i);
+                         document.write("</select>일  </font>");
+                    </script>
+                         <input type="radio" name="gender" id="M"><label for="M">남</label>
+                         <input type="radio" name="gender" id="W" checked><label for="W">여</label>
+                    </td>
+               </tr>
+            <tr>
+                <td>
+                    <label for="dong">우편번호
+                </td>
+                <td>
+                    <input type="text" name="dong" id="dong" size="5">-
+                    <input type="text" name="dong" id="dong" size="5">
+                    <input type="button" id="address" value="우편번호검색">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="home">집주소
+                </td>
+                <td>
+                    <input type="text" name="home" id="home" size="38p"> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="homeAddress">상세주소
+                </td>
+                <td>
+                    <input type="text" name="homeAddress" id="homeAddress" size="38p">   
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="phone">연락처
+                </td>
+                <td>
+                    <select id="phone">
+                        <option value=""></option>
+                        <option value="010">010</option>
+                        <option value="011">011</option>
+                        <option value="019">019</option>
+                    </select>
+                    -
+                    <input type="text" name="phone" id="phone" size="12px"> -
+                    <input type="text" name="phone" id="phone" size="12px"><br>
+                    <input type="checkbox" id="yes" >
+                    <label class="che" for="yes">정보/이벤트 SMS 수신에 동의합니다.</label>
+                </td>
+              
+            </tr>
+            <tr>
+                <td>
+                    <label for="email">이메일
+                </td>
+                <td>
+                    <input type="text" name="email" id="email" size="10"> @
+                    <select id="email2">
+                        <option value=""></option>
+                        <option value="1">naver.com</option>
+                        <option value="2">hanmail.com</option>
+                        <option value="3">daum.net</option>
+                    </select>
+                    <br>
+                    <input type="checkbox" id="yes2" >
+                    <label class="che" for="yes2">정보/이벤트 메일 수신에 동의합니다.</label>
+                </td>
+            </tr>
+       
+        
+        </table>
+        <div class="btn_box"><input type="button" class="btn" value="회원가입"><input type="reset" class="btn" value="다시 입력"></div>
+    </form>
+    </div>
+            
+               
+   
+        <script src="js/choko_main.js"></script>
+</body>
+</html>

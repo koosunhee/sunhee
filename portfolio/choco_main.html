@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChokoMain</title>
+    <link href="CSS/choco_main.css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+
+</head>
+<body>
+<div id="container">
+    <div class="main">
+     <div class="main_headline">
+        <h1>내 이름은 <strong>구초코</strong></h1><br/>
+        <p><img src="images/icon/free-icon-left-quotes-sign-39711.png" alt="따옴표"> 항상 꼬순내가 나죠.<img src="images/icon/free-icon-right-quotes-symbol-37406.png" alt="따옴표"></p>
+     
+    
+        <img src="images/icon/cheese.png"    alt="cheese" class="cheese1">
+        <img src="images/icon/cheese.png"    alt="cheese" class="cheese2">
+        <img src="images/icon/cheese.png"    alt="cheese" class="cheese3">
+        <img src="images/icon/popcorn.png"   alt="popcorn" class="popcorn4">
+        <img src="images/icon/popcorn.png"   alt="popcorn" class="popcorn5">
+        <img src="images/icon/popcorn.png"   alt="popcorn" class="popcorn6">
+    </div>
+    <div class="login_box">
+      <ul>
+        <li class="login_item"><a id="login" href="login.html">LOGIN</a></li> |
+        <li class="login_item"><a id="join" href="join.html">JOIN</a></li>
+      </ul>
+    </div>
+    </div>
+    <div class="content">
+        <header>
+            <nav class="nav_bar">
+              <div class="menu_box">
+                <ul>
+                  <li class="nav_item"><a href="#container"><img src="./images/icon/logo.png" alt="logo"></a></li>
+                  <li class="nav_item"><a href="#tmi">TMI TIMELINE</a></li>
+                  <li class="nav_item"><a href="#port">PHOTO</a></li>
+                  <li class="nav_item"><a href="#VIDEO">VIDEO</a></li>
+                </ul>
+              </div>
+           
+            </nav>
+          </header>
+          <section>
+              <article id="tmi"> 
+                <section class="intro">
+                    <div class="container">
+                        <h2>귀엽고 건강하게 자라온 구초코의 <span>발자취</span><img src="images/icon/sole.png" class="wow pulse" data-wow-iteration="infinite" style="transform:rotate(40deg)" ></h2>
+                    </div>
+                  </section>
+                  
+                  <section class="timeline">
+                    <ul>
+                      <li>
+                        <div>
+                          <time>2015.03.11</time> <br/>가정집에서, 총 6마리 형제 중 셋째로 태어나다. 그녀의 첫번째 이름은 "초록이"<br/>
+                          <img src="images/choco/h1.jpg">
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <time>2015.04.24</time> <br/>태어난지 45일째 되던 날, 구씨 집안의 막내로 입성하다. 그녀의 두 번째 이름은 "구초코"<br/>
+                          <img src="images/choco/h2.jpg">
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <time>2015.07.16</time> <br/>이갈이 시즌으로, 온 집안의 모든 것을 씹어먹다.<br/>
+                          <img src="images/choco/h3.jpg">
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <time>2017.09.18</time> <br/>주인의 독립으로 인해, 주인과 단 둘이 살게 된다.<br/>
+                          <img src="images/choco/h4.jpg">
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <time>2017.11.25</time> <br/>왼쪽 다리 슬개골 탈구로 그녀의 인생에서, 첫 수술을 받게 된다. 최소 3개월 이상은 병원에서 물리치료 받아야 할 정도로 심각했다.<br/>
+                          <img src="images/choco/h5.jpg">
+                        </li>
+                      <li>
+                        <div>
+                          <time>2019.02.24</time> <br/>좀 더 오랫동안 건강하게 살기 위해, 중성화 수술을 받다.<br/>
+                          <img src="images/choco/h6.jpg">
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <time>2020.06.01</time> <br/>본 집에서, 토이푸들 "팡이"를 데리고 와, 구씨 막내를 탈피하다.<br/>
+                          <img src="images/choco/h7.jpg">
+                        </div>
+                      </li>
+                      <li>
+                        <div>
+                          <time>2021.03.11~</time> <br/>6살인 초코는 건강하고 예쁘게 살고있으며, 앞으로도 쭉~~사랑받으며 살 예정이다.<br/>
+                          <img src="images/choco/h8.jpg">
+                        </div>
+                      </li>
+                  </section>
+              </article>
+              <article id="port">
+                <h2>PHOTO SLIDESHOW</h2>
+                <div class="swiper-container">
+                <button class="prev" onclick="prev()">
+                    <i class="fa-5x fas fa-angle-left"></i>
+                </button>
+                
+                <div class="single-items">
+                        <div class="item active"><img src="./images/choco/s1.jpg"></div>
+                        <div class="item"><img src="./images/choco/s2.jpg"></div>
+                        <div class="item"><img src="./images/choco/s3.jpg"></div>
+                        <div class="item"><img src="./images/choco/s4.jpg"></div>
+                        <div class="item"><img src="./images/choco/s5.jpg"></div>
+                        <div class="item"><img src="./images/choco/s6.jpg"></div>
+                        <div class="item"><img src="./images/choco/s7.jpg"></div>
+                        <div class="item"><img src="./images/choco/s8.jpg"></div>
+                        <div class="item"><img src="./images/choco/s9.jpg"></div>
+                        <div class="item"><img src="./images/choco/s10.jpg"></div>
+                        <div class="item"><img src="./images/choco/s11.jpg"></div>
+
+                    
+                  </div>
+              
+                
+                <ul class="stepper">
+                    <li class="step active-step"><i class="fas fa-circle"></i></li>
+                    <li class="step"><i class="fas fa-circle"></i></li>
+                    <li class="step"><i class="fas fa-circle"></i></li>
+                    <li class="step"><i class="fas fa-circle"></i></li>
+                    <li class="step"><i class="fas fa-circle"></i></li>
+                    <li class="step"><i class="fas fa-circle"></i></li>
+                    <li class="step"><i class="fas fa-circle"></i></li>
+                    <li class="step"><i class="fas fa-circle"></i></li>
+                    <li class="step"><i class="fas fa-circle"></i></li>
+                    <li class="step"><i class="fas fa-circle"></i></li>
+                    <li class="step"><i class="fas fa-circle"></i></li>
+                  </ul>
+                
+                  <button class="next" onclick="next()">
+                    <i class="fa-5x fas fa-angle-right"></i>
+                  </button>
+                </div>
+              </article>
+              <article id="VIDEO">
+                <h2>구초코 <span>VIDEO</span></h2>
+                <div class="VIDEO_items">
+                    <div class="VIDEO_item">
+                        <div id="player">
+                            <div id="player_screen"><div class="top_img"><img src="images/icon/play.png"></div>
+                            <video src="video/choco1.mp4"  controls="controls"></video></div>
+                           </div>
+                           
+                           <div id="list">
+                           
+                               <dl class="movs">
+                                <dd class="thumb"><a href="#"><img src="images/choco/video cover.jpg" alt=""></a><em></em></dd>
+                                   <dd class="url"><video src="video/choco2.mp4" controls="controls"></video></dd>
+                               </dl>
+                           
+                               <dl class="movs">
+                                <dd class="thumb"><a href="#"><img src="images/choco/video cover.jpg" alt=""></a><em></em></dd>
+                                   <dd class="url"><video src="video/choco3.mp4" controls="controls"></video></dd>
+                               </dl>
+                           
+                               <dl class="movs">
+                                <dd class="thumb"><a href="#"><img src="images/choco/video cover.jpg" alt=""></a><em></em></dd>
+                                   <dd class="url"><video src="video/choco4.mp4" controls="controls"></video></dd>
+                               </dl>
+
+                               <dl class="movs">
+                                <dd class="thumb"><a href="#"><img src="images/choco/video cover.jpg" alt=""></a><em></em></dd>
+                                   <dd class="url"><video src="video/choco1.mp4" controls="controls"></video></dd>
+                               </dl>
+                           
+                           </div>
+                    </div>
+                    <div class="VIDEO_info">
+                        <img src="images/icon/bone.png"    alt="bone" class="bone" >
+                        <h1 class="wow pulse" data-wow-iteration="infinite">초코의<br/>
+                        귀여운<br/>
+                        사생활<br/></h1>
+                        <p>어제도 오늘도 내일도 귀여운 초코의 영상입니다!</p>
+                        <p>어제도 오늘도 내일도 귀여운 초코의 영상입니다!</p>
+                        <p>어제도 오늘도 내일도 귀여운 초코의 영상입니다!</p>
+                    </div>
+                </div>
+              </article>
+          </section>
+          <div class="bar">
+            <h2><marquee loop="infinite" direction="left">CUTE LOVELY ADORABLE SWEET CHEESE KOOCHOKO</marquee></h2>
+          </div>
+          <footer id="contact">
+            <div class="contacts">
+              <div class="contacts_add">
+                <h3>주소</h3>
+                <p>주인 : 구땡땡</p>
+                <p>주소 : 경기도 땡땡땡 땡땡로 땡땡산길 17-6 (땡땡땡 333-25)</p>
+                <p>동물등록번호 : 123-456-7890</p>
+              </div>
+              <div class="contacts_phone">
+                <h3>고객센터</h3>
+                <p><span>9999-9999</span> <br/>평일 09:00~18:00(공휴일 제외)</p>
+              </div>
+              <div class="contacts_sns">
+                <h3>SNS</h3>
+                <ul class="etc_sns">
+                  <li class="etc_ins"><a href="#"><img src="./images/icon/instagram.png"></a></li>
+                  <li class="etc_fac"><a href="#"><img src="./images/icon/facebook.png"></a></li>
+                  <li class="etc_you"><a href="#"><img src="./images/icon/youtube.png"></a></li>
+                </ul>
+              </div>
+            </div>
+            <p class="copy" >Copyright &copy; 꼬순내한가득구초코. All Right Reserved.</p>
+          </footer>
+    </div>
+    <a id="Top" href="#"><img src="images/icon/up-arrow.png"></a>
+</div>
+
+
+
+    <script src="js/choco_main.js"></script>
+    <script src="https://kit.fontawesome.com/c8e2b99a17.js" crossorigin="anonymous"></script>
+
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+</body>
+</html>
